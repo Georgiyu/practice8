@@ -1,0 +1,2 @@
+FROM jenkins/jenkins:lts
+COPY ./ports.conf /etc/apache/ports.conf
